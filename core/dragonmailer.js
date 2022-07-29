@@ -1,6 +1,8 @@
 const nodemailer = require("nodemailer");
 const { emailConfig } = require("./config")
 
+console.log("Email Config: ", emailConfig)
+
 
 //transporter
 const dragonTransporter = nodemailer.createTransport({
